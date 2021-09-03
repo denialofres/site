@@ -1,0 +1,28 @@
+.topPane {
+/*	background-color: black;*/
+	margin: 0px; height: 70px;
+	position: fixed;
+	top: 0px; width: 100%;
+	text-align: center; line-height: 70px;
+	font-size: 40px;
+}
+.mainBody {
+	width: 95%; height: 80%;
+	margin-left: auto; margin-right: auto;
+	bottom: 5px; top: 70px;
+	position: fixed;
+	outline: 2px solid white;
+	overflow: scroll;
+}
+.footer {
+	position: fixed;
+	bottom: 5px;
+	width: 100%
+}
+#textInput {
+	width: 80%;
+}
+body {
+	background: linear-gradient(to bottom right, #062f4f, #b82601) fixed;
+	color: white;
+}
